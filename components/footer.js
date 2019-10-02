@@ -10,7 +10,7 @@ export default class Footer extends React.PureComponent {
 
   showDouyin = () => {
     if (this.index !== 1) {
-      this.img.src = "assets/utils/douyin.png";
+      this.img.src = "/static/assets/utils/douyin.png";
       this.index = 1;
       this.img.classList.remove('closeCQ');
     } else {
@@ -21,7 +21,7 @@ export default class Footer extends React.PureComponent {
 
   showWeixin = () => {
     if (this.index !== 2) {
-      this.img.src = "assets/utils/weixin.jpeg";
+      this.img.src = "/static/assets/utils/weixin.jpeg";
       this.index = 2;
       this.img.classList.remove('closeCQ');
     } else {
