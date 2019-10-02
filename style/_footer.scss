@@ -1,0 +1,54 @@
+.footer {
+  background-color: #33302d;
+  height: 280px;
+  text-align: center;
+  color: #fff;
+  
+  h3 {
+    font-weight: 300;
+    font-size: 1.4rem;
+  }
+  p { 
+    font-weight: 300;
+    font-size: 12px;
+  }
+}
+.contact {
+  position: relative;
+  padding-top: 70px; 
+
+  .c1, .c2, .c3, .c4 {
+    position: relative;
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    background-image: url('/static/assets/pics/contact.png');
+    background-repeat: no-repeat;
+    margin: 0 5px;
+  }
+
+  .c2 {
+    background-position: -87px 0;
+  }
+  .c3 {
+    background-position: -174px 0;
+  }
+  .c4 {
+    background-position: -261px 0;
+  }
+
+  div {
+    cursor: pointer;
+  }
+}
+
+img {
+  position: absolute;
+  top: -300px;
+  width: 300px;
+  height: 300px;
+}
+
+.closeCQ {
+  display: none;
+}

@@ -1,0 +1,117 @@
+.s1 {
+  text-align: center;
+  padding: 50px 0;
+
+  h3 {
+    font-weight: 200;
+  }
+  h5 {
+    font-weight: 200;
+  }
+}
+.s2 {
+  width: 380px;
+  height: 120px;
+  margin: auto;
+  background-image: url('/static/assets/pics/IMG_7592.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.s3 {
+  text-align: center;
+  padding: 50px 0;
+
+  h1 {
+    font-weight: 400;
+  }
+  h2 {
+    
+    font-weight: 300;
+  }
+  a {
+    box-sizing: border-box;
+    background-color: $color-theme;
+    padding: 10px 20px;
+    margin: 10px 0;
+    font-weight: 400;
+  }
+}
+.s4 {
+  width: 380px;
+  height: 300px;
+  // padding-top: 71%;
+  margin: auto;
+  background-image: url('/static/assets/pics/DSC_4671.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.sec-dangan {
+  position: relative;
+  background-color: $color-theme;
+  text-align: center;
+  padding: 50px 0;
+
+  .left {
+    display: inline-block;
+    padding: 0 50px;
+    width: 400px;
+    height: 280px;
+    background-image: url('/static/assets/pics/b1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .right {
+    display: inline-block;
+    width: 400px;
+    height: 280px;
+    padding: 0 50px;
+    background-image: url('/static/assets/pics/b2.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+@media (max-width: 1016px) {
+  .sec-dangan {
+    padding: 20px 0;
+  }
+  .sec-dangan .left {
+    margin-right: 10%;
+  }
+  .sec-dangan .left, .sec-dangan .right {
+    width: 35%;
+    height: 30vw;
+    padding: 0;
+  }
+}
+
+
+@media (max-width: 660px) {
+  .s2 {
+    width: 80%;
+    background-size: contain;
+  }
+  .s4 {
+    width: 80%;
+    background-size: contain;
+  }
+  
+}
+
+@media (max-width: 412px) {
+  .s1 h3{
+    font-size: 1rem;
+  }
+  
+  // .sec-dangan {
+  //   .left, .right {
+  //     width: 100%;
+  //     background-size: contain;
+  //   }
+  // }
+}
