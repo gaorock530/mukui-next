@@ -21,6 +21,6 @@ export default () => (
       name="keywords"
       content="牧葵 牧葵珍品 牧葵食品 MUKUI 牧葵海参 海参 sea cucumbers 淡干海参 既食海参"
     />
-    <title>牧葵珍品</title>
+    <title>牧葵食品</title>
   </Head>
 )
